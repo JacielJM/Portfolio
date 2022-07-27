@@ -4,54 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tablas HTML</title>
+    <title>Mi Portfolio</title>
     <style>
       body {
         font-family: JetBrains Mono;
       }
-      thead {
-        color: blueviolet;
-      }
-
-      tbody {
-        color: goldenrod;
-      }
-
-      tfoot {
-        color: turquoise;
-      }
-      table,
-      th,
-      td {
-        border: 1px solid black;
+      label {
+        display: block;
       }
     </style>
   </head>
   <body>
-    <h4>Elemento thead, tbody y tfoot</h4>
-    <table>
-      <thead>
-        <tr>
-          <th>Month</th>
-          <th>Savings</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>January</td>
-          <td>$100</td>
-        </tr>
-        <tr>
-          <td>February</td>
-          <td>$80</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>Sum</td>
-          <td>180</td>
-        </tr>
-      </tfoot>
-    </table>
+    <div class="Contacto">
+      <h3>Contacto</h3>
+      <ul>
+        <li>
+          <a href="https://www.github.com/JacielJM" target="_blank"
+            >Róbate mi código!</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jacieljm/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="mailto:jacimenera@gmail.com" target="_blank"
+            >Envíame un correo</a
+          >
+        </li>
+        <li>
+          <a href="https://twitter.com/jaciel_jm" target="_blank"
+            >Tuiter (NSFW)</a
+          >
+        </li>
+        <li>
+          <a href="https://www.facebook.com/JachyPanaboy" target="_blank"
+            >Are you a stalker?</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/jaciel.jm" target="_blank"
+            >Really?</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://paypal.me/JacielMenera?country.x=MX&locale.x=es_XC"
+            target="_blank"
+            >Invítame un café</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="formulario">
+      <h3>¿Algún proyecto en mente?</h3>
+      <form>
+        <label for="nombre">Nombre / Empresa</label>
+        <input type="text" id="nombre" placeholder="Juan / NASA" required />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="alguien@ejemplo.com"
+          required
+        />
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" min="10" max="100" placeholder="" />
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          id="mensaje"
+          cols="50"
+          rows="10"
+          placeholder="Estoy planeando hackear la NASA..."
+          required
+        ></textarea>
+        <input type="submit" />
+      </form>
+    </div>
   </body>
 </html>
