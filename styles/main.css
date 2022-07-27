@@ -1,0 +1,39 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  color: antiquewhite;
+  background: url("/public/images/back.png");
+  background-size: contain;
+}
+label {
+  display: block;
+  margin: 10px;
+}
+input,
+textarea {
+  margin: 10px;
+  background-color: darkslategrey;
+  border-radius: 5px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+a {
+  color: whitesmoke;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+a:visited {
+  color: goldenrod;
+}
+
+input:hover,
+textarea:hover {
+  border: 2px solid goldenrod;
+}
