@@ -3,11 +3,14 @@ body {
   color: antiquewhite;
   background: url("/public/images/back.png");
   background-size: contain;
+  margin: 0;
 }
+
 label {
   display: block;
   margin: 10px;
 }
+
 input,
 textarea {
   margin: 10px;
@@ -36,4 +39,12 @@ a:visited {
 input:hover,
 textarea:hover {
   border: 2px solid goldenrod;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
