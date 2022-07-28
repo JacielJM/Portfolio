@@ -12,7 +12,7 @@
 body {
 	font-family: "JetBrains Mono", monospace;
 	color: antiquewhite;
-	background-image: url("../public/images/back.png");
+	background-image: url("/public/images/back.png");
 	background-color: #121212;
 	background-size: contain;
 	margin: 0;
