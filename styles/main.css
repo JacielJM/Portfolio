@@ -1,50 +1,65 @@
 body {
-  font-family: "JetBrains Mono", monospace;
-  color: antiquewhite;
-  background: url("/public/images/back.png");
-  background-size: contain;
-  margin: 0;
+	font-family: "JetBrains Mono", monospace;
+	color: antiquewhite;
+	background: url("/public/images/back.png");
+	background-size: contain;
+	margin: 0;
+}
+
+#me {
+	color: #e0dfdc;
+	background-color: #567;
+	letter-spacing: 0.1em;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+		0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222,
+		0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+		0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212,
+		0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
 label {
-  display: block;
-  margin: 10px;
+	display: block;
+	margin: 10px;
 }
 
 input,
 textarea {
-  margin: 10px;
-  background-color: darkslategrey;
-  border-radius: 5px;
+	margin: 10px;
+	background-color: darkslategrey;
+	border-radius: 5px;
 }
 
 table,
 th,
 td {
-  border: 1px solid white;
+	border: 1px solid white;
 }
 
 a {
-  color: whitesmoke;
+	color: whitesmoke;
 }
 
 a:hover {
-  color: goldenrod;
+	color: goldenrod;
+}
+
+a:active {
+	color: darkblue;
 }
 
 a:visited {
-  color: goldenrod;
+	color: goldenrod;
 }
 
 input:hover,
 textarea:hover {
-  border: 2px solid goldenrod;
+	border: 2px solid goldenrod;
 }
 
 .App {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
 }
