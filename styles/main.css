@@ -61,6 +61,10 @@ span {
 	color: goldenrod;
 }
 
+.skills {
+	display: inline-block
+}
+
 body {
 	font-family: "JetBrains Mono", monospace;
 	color: antiquewhite;
