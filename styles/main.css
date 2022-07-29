@@ -1,12 +1,64 @@
 #me {
-	color: #e0dfdc;
-	background-color: #567;
 	letter-spacing: 0.1em;
-	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+	text-transform: uppercase;
+	/* color: #e0dfdc;
+	background-color: #567; */
+	/* text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
 		0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222,
 		0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
 		0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212,
-		0 22px 30px rgba(0, 0, 0, 0.9);
+		0 22px 30px rgba(0, 0, 0, 0.9); */
+	color: rgba(255, 255, 255, 0.3);
+	background: #1a1a1a;
+	text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+		0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+span {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	border-right: 2px solid;
+	width: 32ch;
+	animation: typing 3s steps(32), blink 0.5s infinite step-end alternate;
+	overflow: hidden;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
+.App {
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.links {
+	display: flex;
+	margin: 0 -1em;
+}
+
+.links a {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+.logo {
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: goldenrod;
 }
 
 body {
@@ -17,7 +69,6 @@ body {
 	background-size: contain;
 	margin: 0;
 }
-
 
 label {
 	display: block;
@@ -56,31 +107,6 @@ textarea:hover {
 
 * {
 	box-sizing: border-box;
-}
-
-.App {
-	/* display: flex; */
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	flex-direction: column;
-}
-
-.links {
-	display: flex;
-	margin: 0 -1em;
-}
-
-.links a {
-	display: inline-block;
-	margin: 0 1em;
-}
-
-.logo {
-	font-weight: bold;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	color: goldenrod;
 }
 
 nav {
