@@ -1,5 +1,4 @@
 #job {
-	display: inline-block;
 	text-align: center;
 	white-space: nowrap;
 	border-right: 2px solid;
@@ -22,18 +21,20 @@
 
 .container {
     margin: 50px 0; 
+    padding: 0;
 }
 
 .container-fluid {
     padding: 0;
 }
 
- .navbar, .btn-primary {
+.navbar, .btn-primary {
     background-color: #395B64;
- }
+    border: none;
+}
 
  .btn-primary:hover {
-     background-color: #816213;
+     background-color: #ECB365;
  }
 
  .card, .form-control {
@@ -48,8 +49,13 @@ body {
 
 h1 {
     color: #816213;
+    padding: 0;
 }
 
 img {
     border-radius: 100px;
+}
+
+div {
+    padding: 0;
 }
