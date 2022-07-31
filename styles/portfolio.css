@@ -1,5 +1,10 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
 #job {
-	text-align: center;
 	white-space: nowrap;
 	border-right: 2px solid;
 	width: 34ch;
@@ -41,21 +46,17 @@
     background-color: #A5C9CA;
 }
 
+
 body {
     font-family: 'JetBrains Mono', sans-serif;
     background-color: #2C3333;
     color: #E7F6F2;
 }
 
-h1 {
+h1, .navbar-brand {
     color: #816213;
-    padding: 0;
 }
 
 img {
     border-radius: 100px;
-}
-
-div {
-    padding: 0;
 }
