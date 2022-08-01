@@ -73,7 +73,7 @@
 						<img
 							src="/public/images/jaciel-github.jpg"
 							class="card-img-top"
-							alt="profile-picturr"
+							alt="profile-picture"
 						/>
 						<div class="card-body">
 							<h5 class="card-title">Jaciel JM</h5>
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 			</div>
-
+			<hr class="my-5" />
 			<!-- titulo -->
 			<div class="container">
 				<div class="row justify-content-center">
@@ -135,14 +135,15 @@
 						</div>
 
 						<div class="col-6 mx-auto">
-							<div class="mb-3 form-check">
+							<div class="form-check form-switch">
 								<input
-									type="checkbox"
 									class="form-check-input"
-									id="exampleCheck1"
+									type="checkbox"
+									role="switch"
+									id="flexSwitchCheckDefault"
 								/>
-								<label class="form-check-label" for="exampleCheck1"
-									>Verificado</label
+								<label class="form-check-label" for="flexSwitchCheckDefault"
+									>Suscribirme</label
 								>
 							</div>
 							<button type="submit" class="btn btn-primary">Enviar</button>
@@ -154,31 +155,41 @@
 			<!-- footer -->
 			<footer class="text-center text-lg-start bg-dark">
 				<div class="container-fluid d-flex justify-content-center py-3">
-					<a href="http://www.linkedin.com/in/jacieljm" target="_blank" >
-						<button
-						type="button"
+					<a
 						class="btn btn-primary btn-lg btn-floating mx-2"
-					>
-						<i class="fi fi-brands-linkedin"></i>
-					</button></a>
-					<button
-						type="button"
+						href="http://www.linkedin.com/in/jacieljm"
+						role="button"
+						target="_blank"
+						><i class="fi fi-brands-linkedin"></i
+					></a>
+					<a
 						class="btn btn-primary btn-lg btn-floating mx-2"
-					>
-						<i class="fi fi-brands-github"></i>
-					</button>
-					<button
-						type="button"
+						href="https://www.facebook.com/JachyPanaboy"
+						role="button"
+						target="_blank"
+						><i class="fi fi-brands-facebook"></i
+					></a>
+					<a
 						class="btn btn-primary btn-lg btn-floating mx-2"
-					>
-						<i class="fi fi-brands-twitter"></i>
-					</button>
-					<button
-						type="button"
+						href="https://www.github.com/jacieljm"
+						role="button"
+						target="_blank"
+						><i class="fi fi-brands-github"></i
+					></a>
+					<a
 						class="btn btn-primary btn-lg btn-floating mx-2"
-					>
-						<i class="fi fi-brands-paypal"></i>
-					</button>
+						href="https://www.twitter.com/jaciel_jm"
+						role="button"
+						target="_blank"
+						><i class="fi fi-brands-twitter"></i
+					></a>
+					<a
+						class="btn btn-primary btn-lg btn-floating mx-2"
+						href="https://www.paypal.com/paypalme/JacielMenera"
+						role="button"
+						target="_blank"
+						><i class="fi fi-brands-paypal"></i
+					></a>
 				</div>
 
 				<!-- Copyright -->
@@ -201,5 +212,6 @@
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
+		<script src="/js/main.js"></script>
 	</body>
 </html>
