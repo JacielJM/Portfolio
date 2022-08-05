@@ -16,6 +16,10 @@ html {
 	overflow: hidden;
 }
 
+#copy {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
 @keyframes typing {
 	from {
 		width: 0;
