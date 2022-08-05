@@ -99,38 +99,124 @@
 			<!-- slider -->
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="slider">
-						<a href="#slide-1">1</a>
-						<a href="#slide-2">2</a>
-						<a href="#slide-3">3</a>
-						<a href="#slide-4">4</a>
-						<a href="#slide-5">5</a>
-
-						<div class="slides">
-							<div id="slide-1">
+					<div
+						id="carouselExampleIndicators"
+						class="carousel slide carousel-fade"
+						data-bs-ride="true"
+					>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="3"
+								aria-label="Slide 5"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="4"
+								aria-label="Slide 4"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="5"
+								aria-label="Slide 5"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="6"
+								aria-label="Slide 6"
+							></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
 								<img
-									src="/public/images/secuencia-de-comandos-de-java.png"
-									alt=""
-									class="card-img-bottom"
+									src="/public/images/git_icon_130581.png"
+									class="d-block"
+									alt="..."
 								/>
 							</div>
-							<div id="slide-2">
+							<div class="carousel-item">
+								<img src="/public/images/js5.png" class="d-block" alt="..." />
+							</div>
+							<div class="carousel-item">
 								<img
 									src="/public/images/html-5.png"
-									alt=""
-									class="card-img-bottom"
+									class="d-block"
+									alt="..."
 								/>
 							</div>
-							<div id="slide-3">
+							<div class="carousel-item">
+								<img src="/public/images/css-3.png" class="d-block" alt="..." />
+							</div>
+							<div class="carousel-item">
 								<img
-									src="/public/images/css-3.png"
-									alt=""
-									class="card-img-bottom"
+									src="/public/images/python_vertical_logo_icon_168039.png"
+									class="d-block"
+									alt="..."
 								/>
 							</div>
-							<div id="slide-4">4</div>
-							<div id="slide-5">5</div>
+							<div class="carousel-item">
+								<img
+									src="/public/icons/bootstrap-5-1.svg"
+									class="d-block"
+									alt="..."
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="/public/icons/nodejs-2.svg"
+									class="d-block"
+									alt="..."
+								/>
+							</div>
 						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
 					</div>
 				</div>
 			</div>
@@ -195,7 +281,7 @@
 
 			<!-- footer -->
 			<footer class="text-center text-lg-start bg-dark">
-				<div class="container-fluid d-flex justify-content-center py-3>
+				<div class="container-fluid d-flex justify-content-center py-3">
 					<a
 						class="btn btn-primary btn-lg btn-floating mx-2"
 						href="http://www.linkedin.com/in/jacieljm"
@@ -239,7 +325,10 @@
 					style="background-color: rgba(0, 0, 0, 0.2)"
 				>
 					© 2022 Copyright:
-					<a class="text-white" href="https://www.github.com/JacielJM"
+					<a
+						class="text-white"
+						href="https://www.github.com/JacielJM/Portfolio/"
+						target="_blank"
 						>Jaciel JM</a
 					>
 				</div>
@@ -253,6 +342,5 @@
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
-		<script src="/js/main.js"></script>
 	</body>
 </html>
