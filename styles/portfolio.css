@@ -20,6 +20,10 @@ html {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
+#p1 {
+	background-color: #ecb365;
+}
+
 @keyframes typing {
 	from {
 		width: 0;
@@ -92,6 +96,10 @@ h1 {
 	color: #816213;
 }
 
+hr {
+	width: 90vw;
+	color: #ecb365;
+}
 .card-img-top {
 	border-radius: 100%;
 }
