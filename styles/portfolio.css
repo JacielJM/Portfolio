@@ -87,7 +87,7 @@ html {
 }
 
 body {
-	font-family: 'JetBrains Mono', sans-serif;
+	font-family: 'JetBrains Mono', monospace;
 	background-color: #2c3333;
 	color: #e7f6f2;
 }
