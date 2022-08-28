@@ -1,10 +1,9 @@
 #me {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgb(255, 255, 255);
 	background: #1a1a1a;
-	text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
-		0 0 10px rgba(255, 255, 255, 0.5);
+	text-shadow: 0 0 15px rgb(13, 197, 243), 0 0 10px rgb(13, 159, 243);
 }
 
 span {
@@ -107,13 +106,15 @@ textarea:hover {
 
 nav {
 	display: flex;
-	position: sticky;
-	top: 0px;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	flex-direction: row;
+	/* position: sticky; */
+	/* top: 0px; */
+	/* left: 45%; */
+	/* flex-wrap: wrap; */
+	/* justify-content: space-between; */
 	padding: 1.5rem 2rem;
 	background-color: darkslategrey;
-	transition: top 500ms ease-in-out;
+	/* transition: top 500ms ease-in-out; */
 }
 
 nav a {
