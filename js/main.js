@@ -1,9 +1,10 @@
 // alert("Bienvenido a mi portfolio");
 const email = document.querySelector('#email');
 
-if (email.value != '') {
-	validarEmail(email.value);
-}
+email.addEventListener('input', e => {
+	e.preventDefault();
+	if (e.target.value != '') validarEmail(email);
+});
 
 function validarEmail(campo) {
 	const mensaje = campo.value;
